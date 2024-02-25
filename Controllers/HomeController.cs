@@ -18,10 +18,36 @@ namespace FPW8.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult About()
         {
             return View();
         }
+
+        public IActionResult Experience()
+        {
+            return View();
+        }
+
+        public IActionResult Education()
+        {
+            return View();
+        }
+
+        public IActionResult Skills()
+        {
+            return View();
+        }
+        
+        public IActionResult Interests()
+        {
+            return View();
+        }
+
+        public IActionResult Awards()
+        {
+            return View();
+        }
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
